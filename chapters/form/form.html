@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div class="maindiv">
+       <div class="emaildiv">
+   <input id="emailMy" type="email" placeholder="Email Address Or Phone Number" class="emailfild" />
+      <p id="para1" style="color:red; display: none;  position: relative; left: 10px;">fill your email <i class="fa fa-frown-o" aria-hidden="true"></i>  </p>
+</div>
+       <!-- <br /> -->
+       <div class="passworddiv">
+   <input id="passwordMy" type="password" placeholder=" password" class="emailfild" />
+   <p id="para2" style="color:red; display: none; position: relative; left: 10px;">fill your password   <i class="fa fa-frown-o" aria-hidden="true"></i></p>
+           
+    </div>
+    <br />
+     <button onclick="formData();" > Sign in </button>  
+   </div>
+</body>
+<script>
+     var formData=()=>{
+        
+        var emailValue=document.getElementById("emailMy").value;
+        var passwordValue=document.getElementById("passwordMy").value;
+       if(emailValue==="siddiqueraheel216@gmail.com" && passwordValue==="rasim123"){
+          window.location.href="otherpage.html";
+       }else{
+        document.getElementById("emailMy").style.borderColor = "red";
+        document.getElementById("passwordMy").style.borderColor = "red";
+         
+        document.getElementById("para1").style.display="inline";
+        document.getElementById("para2").style.display="inline";
+
+
+
+        //    alert("plz enter Your all fileds")
+       }
+     }
+</script>
+</html>
