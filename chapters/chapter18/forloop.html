@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <form action="">
+          username
+          <input type="text" id="myusername">
+          <button onclick="myFunc();">login</button>
+      </form>
+</body>
+<script>
+
+    // loop:definition: do iteration:means same cheez ko repeat nh krne deta
+//    var myCity="karachi";
+//    var allCities=["Lahore","islamabad", "Kashmir", "skardu","karachi","Quetta","Multan"];
+//       if(myCity===allCities[0]){
+//           alert("this is my city")
+//       }else if(myCity===allCities[1]){
+//         alert("this is my city")
+
+//       }else if(myCity===allCities[2]){
+//         alert("this is my city")
+
+//       }
+//       else if(myCity===allCities[3]){
+//         alert("this is my city")
+
+//       }
+//       else if(myCity===allCities[4]){
+//         alert("this is my city")
+
+//       }
+//       else if(myCity===allCities[5]){
+//         alert("this is my city")
+
+//       }
+//       else if(myCity===allCities[6]){
+//         alert("this is my city")
+
+//       }
+//       else{
+//         alert("this is not my city")
+
+//       }
+// without loop
+
+
+// var myCity="karachi";
+// var allCities=["Lahore","islamabad", "Kashmir", "skardu","karachi","Quetta","Multan"];
+//          for(var i=0; i<7; i++){
+//              if(myCity===allCities[i]){
+//                  alert("yeah this is cleanest city karachi");
+//              }else{
+//                 alert("yeah this is not cleanest city karachi");
+
+//              }
+//          }
+
+
+// var myCity="lahore";
+// var allCities=["lahore","islamabad", "Kashmir", "skardu","karachi","Quetta","Multan"];
+//         var endElement=allCities.pop();
+//         var secLastElemet=allCities.pop();
+//         var thirdLast=allCities.pop();
+//         console.log(secLastElemet)
+//         if(myCity===endElement){
+//             alert("yeha ist karachi");
+//         }else if(myCity===secLastElemet){
+//             alert("yeha ist karachi");
+
+//         }else if(myCity===thirdLast){
+//             alert("yeha ist karachi");
+
+//         }
+       
+        
+//         else{
+//             alert("its not karachi")
+//         }
+// var myCity="lahore";
+// var allCities=["lahore","islamabad", "Kashmir", "skardu","karachi","Quetta","Multan"];
+//          var firstELemeyt=allCities.shift()
+//         //  console.log(firstELemeyt)
+//         //  console.log(allCities)
+//         if(myCity===firstELemeyt){
+//             alert("yeah is lahore")
+//         }else{
+//             alert("not")
+
+//         }
+
+
+
+// break keywords
+var myFunc=()=>{
+//    first method
+    // var myCity=document.getElementById("myusername").value;
+    // 2nd method
+    // var myCity="karachi";
+
+    var allCities=["lahore","islamabad", "Kashmir", "skardu","karachi","Quetta","Multan"];
+   
+    for(var i=0; i<allCities.length; i++){
+    if(myCity===allCities[i]){
+         alert("yeah raheel You are this");
+         break
+     }else{
+        alert("no Raheel");
+
+     }
+    }
+
+}
+    
+
+
+
+</script>
+</html>
