@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    // alert(name)
+    //   chapter 35 Function
+    // definition:A function is a block of JavaScript that robotically does the same thing again and again
+    //   var days=["sunday", "Mon", "tues","wed", "thur", "friday", "staurday"];
+    //   var newDate=new Date();
+    //   var theDay=newDate.getDay();
+    //    console.log(days[theDay]);
+
+    //    function bnaane k lye 2 cheeze zaroori hen
+    // 1)function ko define kro(means function ko bnao);
+    // 2)function ko call krna
+    // nameOfMonthsAndMints()
+    //        function nameOfYearAndDays(){
+    //                  var days=["sunday", "Mon", "tues","wed", "thur", "friday", "staurday"];
+    //           var newDate=new Date();
+    //           var theDay=newDate.getDay();
+    //           var theYear=newDate.getFullYear();
+    //           console.log(theYear)
+
+    //            console.log(days[theDay]);
+
+    //        }
+    //        nameOfYearAndDays()
+
+    //    function nameOfMonthsAndMints(){
+
+    //       var newDate=new Date();
+    //       var theMonth=newDate.getMonth();
+    //       var theMints=newDate.getMinutes();
+
+    //       console.log("this is months "+theMonth +" "+" mints "+theMints)
+
+    //    }
+
+    //    function ko call krne k lye function ka name likhna prta he with ();
+
+    // chapter 36 function with passing data(function with parameters and Arguments)
+
+    //   paramter:function ko define krte we uske () me kch variable likhna wo variable paramter khaalte hen
+    //   Arguments:jaha function ko call kro ge waha uski paramter ki value likho ge an dthis is called argmenst
+
+    //  function with paramter and Argumnets
+
+    //  function addValues(num1 ,num2,num3){
+    // console.log(num1+num2+num3)
+    //  }
+    //  addValues(100, 200, 300);
+    //  addValues(1000, 1200, 1300);
+    //  addValues(10, 20, 100);
+
+    // var plus1=Number(prompt("put your first number"))
+    //    var plus2=Number(prompt("put your second number"))
+    //    var plus3=Number(prompt("put your Third number"))
+
+    // function addValues(num1 ,num2,num3){
+
+    // console.log(num1+num2+num3)
+
+    //  }
+    //  addValues(plus1, plus2, plus3);
+
+    // function MultiplyValues(num1 ,num2,num3){
+    // console.log(num1*num2*num3)
+    //  }
+    //  MultiplyValues(plus1, plus2, plus3);
+
+    //  function subtractValues(num1 ,num2,num3){
+    // console.log(num1-num2-num3)
+    //  }
+    //  subtractValues(plus1, plus2, plus3);
+
+    //  function devideValues(num1 ,num2,num3){
+    // console.log(num1/num2/num3)
+    //  }
+    //  devideValues(plus1, plus2, plus3);
+
+    // chapter 38 Function
+    // Local Vs Global Variable
+
+    // var name ="Raheel siddique";
+    // global variable:jisko hm khi bhi access krskte hen use krskte hen
+    // console.log(name)
+
+    // function myName(name){
+    //      console.log(name)
+    // console.log(myFirstName)
+    // }
+    // myName("Raheel");
+    // alert(myFirstName)
+
+    // local variable:jisko hm function k ander bnaate hen lekin function k bhr acesss nh krskte
+    // function checkDay() {
+    //   var days = ["sunday", "Mon", "tues", "wed", "thur", "friday", "staurday"];
+
+    //   var date = new Date();
+    //   var theDay = date.getDay();
+
+    //   var dayName = days[theDay];
+
+    //   if (dayName === "staurday" || dayName === "sunday") {
+    //     alert("its weekend");
+    //   } else if (
+    //     dayName === "Mon" ||
+    //     dayName === "tues" ||
+    //     dayName === "wed" ||
+    //     dayName === "thur" ||
+    //     dayName === "friday"
+    //   ) {
+    //     alert("its working Day");
+    //   } else {
+    //     alert("today is not any day");
+    //   }
+    // }
+
+    // checkDay();
+
+    // chapter 39 Switch Stement:it is a conditional statemtnn:
+    // like as if else statmem
+
+    // var days = ["sunday", "Mon", "tues", "wed", "thur", "friday", "saturday"];
+
+    // var date = new Date();
+    // var theDay = date.getDay();
+
+    // var dayName = days[theDay];
+    // switch (dayName) {
+    //   case "saturday":
+    //     alert("its weekend");
+    //     break;
+    //   case "sunday":
+    //     alert("its weekend");
+    //     break;
+    //   case "Mon":
+    //     alert("its working day");
+    //     break;
+    //   case "tues":
+    //     alert("its working day");
+    //     break;
+    //  default:
+    //  alert("not any day");
+    //}
+
+    var names = ["Raheel", "rasim"];
+    names[0] = "asim";
+  </script>
+</html>
