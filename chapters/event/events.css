@@ -1,0 +1,42 @@
+.maindiv{
+         margin-left: 600px;
+         margin-top: 200px;
+         background-color: aqua;
+         width: fit-content;
+         height: 200px;
+}
+.para1{
+    display: none;
+}
+.ownnavarow{
+    height: 60px;
+}
+.ownimg{
+    width: 110px;
+    height: 50px;
+    border-radius:1px;
+
+}
+.ownlist{
+   display: none;
+   justify-content: space-around;
+    list-style-type: none;
+}
+/* .owntoggel{
+    display: none;
+} */
+/* @media (max-width: 600px) {
+    .ownlist{
+        display: none;
+        padding: 5px;
+       line-height: 35px; 
+       font-size: 19px;
+       font-family:Georgia, 'Times New Roman', Times, serif;
+      color: orange;   
+
+    } 
+    .owntoggel{
+        display: block;
+    }
+
+  } */
